@@ -156,10 +156,14 @@ a:hover {
    outline: none;
 }
 
-@media(max-width: 560px) {
+@media(max-width: 611px) {
    .info {
       display: block;
       text-align: center;
+   }
+
+   .info .info-text {
+      margin-right: 45px;
    }
 
    .card h2 {
