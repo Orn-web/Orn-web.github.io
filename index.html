@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="keywords" content="resume">
+   <meta name="description" content="Это сайт - резюме Олега Богатова">
+   <title>Resume</title>
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+   <div class="container">
+      <div class="info">
+         <img src="/img/avatar.jpg" alt="Аватар" class="avatar">
+         <div class="info-text">
+            <h1>Олег Богатов</h1>
+            <p>Я системный администратор, который хочет переквалифицироваться во frontend-разработчика.
+            </p>
+            <h4>Список социальных сетей:</h4>
+            <a href="https://t.me/Doom2528" target="_blank">Telegram</a>
+         </div>
+      </div>
+
+      <div class="card bg-green">
+         <h2>Мои хобби</h2>
+         <ol class="list">
+            <li>Путешествия</li>
+            <li>Чтение книг</li>
+            <li>Боевые искусства</li>
+         </ol>
+      </div>
+
+      <div class="card bg-red">
+         <h2>Образование</h2>
+         <ul class="education-list">
+            <li>Казанский государственный технический университет им. А.Н.Туполева</li>
+            <li>Факультет технической кибернетики и информатики</li>
+            <li>Специализация: вычислительные машины, комплексы, системы и сети</li>
+         </ul>
+
+      </div>
+
+      <div class="card bg-yellow">
+         <h2>Опыт работы</h2>
+         <table class="table">
+            <!-- <tr>
+               <td>Название</td>
+               <td>Должность</td>
+               <td>Год</td>
+            </tr> -->
+            <tr>
+               <td>ОАО "КЗГА-Веста"</td>
+               <td>Системный администратор</td>
+               <td>2009-2011</td>
+            </tr>
+            <tr>
+               <td>ФГУ "Земельно кадастровая палата"</td>
+               <td>Инженер-программист</td>
+               <td>2011-2014</td>
+            </tr>
+            <tr>
+               <td>ООО "Грайф"</td>
+               <td>Инженер по информационным технологиям</td>
+               <td>2014-2015</td>
+            </tr>
+            <tr>
+               <td>ООО "Квадронет"</td>
+               <td>Системный администратор</td>
+               <td>2015-2022</td>
+            </tr>
+         </table>
+      </div>
+
+      <form action="#" class="form">
+         <h2>Свяжитесь со мной</h2>
+         <div class="form-row">
+            <div class="form-group">
+               <label for="text">Ваше имя</label>
+               <input type="text" id="text" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+               <label for="email">Ваш email</label>
+               <input type="email" id="email" placeholder="Введите email">
+            </div>
+         </div>
+         <div class="form-group">
+            <label for="message">Ваше сообщение</label>
+            <textarea name="message" id="message" placeholder="Введите сообщение..." cols="25" rows="5"></textarea>
+         </div>
+         <button class="btn" type="submit">Отправить!</button>
+      </form>
+   </div>
+</body>
+
+</html>
